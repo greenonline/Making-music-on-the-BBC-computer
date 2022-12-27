@@ -195,6 +195,11 @@ Page 103 (91)\
 110 SOUND2,Amp,Pitch+1,Dur\
 should be\
 110 SOUND2,Amp,Note+1,Dur\
+Page 118 (106)\
+Listing 7.2, if \'93S\'94 is the first key press then there is a \'93No such variable\'94 error. This is because some of the variables are not declared (T, PI1, PI2, PI3, PN1, PN2, PN3)).\
+This is because PROCEnvelope is not called (which is where the undefined variables (T, PI1, PI2, PI3, PN1, PN2, PN3) are set, prior to PROCPrintEnv), if \'93S\'94 is the first key press causing PROCSoundNoise to be called, via PROC Action, in the main loop. However, PROCEnvelope calls the PROCPlay start after setting.\
+A fix would be to separate PROCEnvelope into two calls PROCSetEnvelope and PROCPlay, where PROCSetEnvelope sets the undefined variables. Then PROCSetEnvelope can also be called as part of PROCSetUp, either just after or just before PROCSetSN.\
+\
 \
 \
 }
