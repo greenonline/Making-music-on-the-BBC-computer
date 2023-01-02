@@ -1,5 +1,5 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;\f2\fmodern\fcharset0 Courier;
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;\f2\froman\fcharset0 Times-Roman;
 }
 {\colortbl;\red255\green255\blue255;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
@@ -16,6 +16,24 @@ Other examples of fisted\
 page 62, 124, 196,212,224, 252, 254\
 fisted should be listed\
 \
+page 14 (2)\
+\
+Spelling of amplitude\
+\
+\pard\pardeftab720\sa240
+
+\f1\fs26 \cf0 110 INPUT"Amplitute (50-400)",Amp
+\f2\fs24 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0 \cf0 should be\
+\
+\pard\pardeftab720\sa240
+
+\f1\fs26 \cf0 110 INPUT"Amplitude (50-400)",Amp
+\f0\fs24 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
 page 14 (2)\
 Missing ; and a comma instead. Line should be\
 70 VDU24,0;0;1279;850\
@@ -121,7 +139,7 @@ Page 40 (28)\
 \
 \pard\pardeftab720\sa240
 
-\f1\fs26 \cf0 If you cut between the keyboard and the stave, you can position the keyboard, which_ covers the range of the sound chip, beneath the stave in such a Chapter 3 The BBC Micro and Sound and Music chip you want to use.
+\f2\fs26 \cf0 If you cut between the keyboard and the stave, you can position the keyboard, which_ covers the range of the sound chip, beneath the stave in such a Chapter 3 The BBC Micro and Sound and Music chip you want to use.
 \fs24 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
 
@@ -134,20 +152,33 @@ page 41 (29)\
 Page 49 (37)\
 \pard\pardeftab720\sa240
 
-\f1\fs26 \cf0 It seems to make more sense to call the lowest octave, and one Chapter 3 The BBC Micro and Sound and Music writing Cl, D1, etc to C0, D0 and it still allows a pitch value of 1 which is B0.
+\f2\fs26 \cf0 It seems to make more sense to call the lowest octave, and one Chapter 3 The BBC Micro and Sound and Music writing Cl, D1, etc to C0, D0 and it still allows a pitch value of 1 which is B0.
 \fs24 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
 
 \f0 \cf0 \
 \
 page 49 (37) \
-40 SOUND 1, -15,0,8\
-Missing \'931\'94 \
+\
+Missing sound channel number,  \'931\'94 \
+\
+\pard\pardeftab720\sa240
+
+\f1\fs26 \cf0 40 SOUND,-15,0,8
+\fs24 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0 \cf0 should be\
+\
+
+\f1 40 SOUND 1, -15,0,8\
+
+\f0 \
 \
 65 (53)\
 \pard\pardeftab720\sa240
 
-\f1\fs26 \cf0 backwards recording of ar\} instrument
+\f2\fs26 \cf0 backwards recording of ar\} instrument
 \fs24 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
 
@@ -164,27 +195,112 @@ along the 3\'a3 axis \
 page 76 (64)\
 \pard\pardeftab720\sa240
 
-\f1\fs26 \cf0 it only needs to be reduced by 26 to reach the ALE
+\f2\fs26 \cf0 it only needs to be reduced by 26 to reach the ALE
 \fs24 \
 ALE should be ALD\
 page 79 (67)\
-The use of PH and PI2\
-\
+Book text \'93The use of PH and PI2\'94:\
 PH should be PI1\
-\
-page 80 (68)\
-\
+page 79 (67)\
+The listing shows in line 29\
 \pard\pardeftab720\sa240
 
-\f2\fs26 \cf0 1244 PROCPitchEnv
-\f1\fs24 \
+\f1\fs26 \cf0 29 REM Altered Lines=150,810
+\f2\fs24 \
+However, whilst 810 is indeed altered, the new version of line 150 is not shown. This line should be:\
+\pard\pardeftab720\sa240
+
+\f1 \cf0 150 IF Input$="C" PROCAxis:PROCAxis2\
+\pard\pardeftab720\sa240
+
+\f2 \cf0 page 80 (68)\
+[This suggest is incorrect??? The line is actually correct???]\
+\pard\pardeftab720\sa240
+
+\f1\fs26 \cf0 1244 PROCPitchEnv
+\f2\fs24 \
 should be\
 
-\f2\fs26 1244 PROCPitEnv
-\f1\fs24 \
- page 80\
-PROCAlterPit is missing\
-PROCFinalTimeCheck is missing\
+\f1\fs26 1244 PROCPitEnv
+\f2\fs24 \
+ page 81 (69)\
+Note that the listing 5.2 is truncated and ends at line 2350. \
+There are three PROCs missing:\
+- PROCAlterPit is missing\
+- PROCOvertime is missing\
+- PROCFinalTimeCheck is missing\
+page 81 (69)\
+Also, line 2310 looks incorrect as its action is a repeat of 2300. To affect the pitch colour (p), it should be \
+2310 IF Input=39 p=1\
+page 81 ((69)\
+The missing lines are\
+2360\
+2370 DEF PROCAlterPit\
+2380 INPUT NewVal$:PRINTTAB(0,2)SPC(6)\
+2390 IF NewVal$=\'93\'94 PROCReset: PROCPrintEnv:ENDPROC\
+2400 NewVal=EVAL(NewVal$)\
+2410 PRINTTAB(30,0)SPC(20)\
+2420 ON (Input-32) GOTO 2430, 2440, 2450,2460,2470,2480\
+2430 PI1=NewVal:ENDPROC\
+2440 PI2=NewVal:ENDPROC\
+2450 PI3=NewVal:ENDPROC\
+2460 PN1=NewVal:ENDPROC\
+2470 PN2=NewVal:ENDPROC\
+2480 PN3=NewVal:ENDPROC\
+2490 ENDPROC\
+2500\
+2510 DEF PROCPitchEnv\
+2520 Time=0\
+2530 YScale=3\
+2540 MOVE 0,Pitch*YScale\
+2550 REPEAT\
+2560 Pitch=Pit1\
+2570 PROCP(PI1, PN1)\
+2580 PROCP(PI2, PN2)\
+2590 PROCP(PI3, PN3)\
+2600 UNTIL FTime OR T1>127\
+2610 ENDPROC\
+2620 \
+2630 DEF PROCFinalTimeCheck\
+2640 FTime=FALSE\
+2650 IF Time>Duration*5 Time=Duration*5:FTime=TRUE\
+2660 ENDPROC\
+2670 \
+Page 81 (69)\
+To be able to change the Pitch variable\
+Finally, to fix the 
+\f1 ON x GOTO
+\f2  range error and actually be able to change the value of 
+\f1 Pitch
+\f2 , change line 2420 to add a 
+\i seventh
+\i0  line option\
+\pard\pardeftab720
+
+\f1 \cf0 2420 ON (Input-32) GOTO 2430, 2440, 2450,2460,2470,2480,2485\
+\pard\pardeftab720\sa240
+
+\f2 \cf0 and then add a new line to change the 
+\f1 Pitch
+\f2  variable\
+\pard\pardeftab720
+
+\f1 \cf0 2485 Pitch=NewVal:ENDPROC\
+\pard\pardeftab720
+
+\f2 \cf0 \'a0\
+\pard\pardeftab720\sa240
+\cf0 actually you have to update the helper/"assistant", 
+\f1 Pit1
+\f2 instead:\
+\pard\pardeftab720
+
+\f1 \cf0 2485 Pit1=NewVal:ENDPROC\
+\pard\pardeftab720\sa240
+
+\f2 \cf0 \
+\
+\
 page 86 (74) \
 tastee 5.6\
 page 89 (77) \
@@ -216,5 +332,5 @@ Page 231 (219)\
 2190 MinKey$=MinKeyArray(No)+" Minor"\
 should be \
 2190 MinKey$=MinKeyArray$(No)+" Minor"\
-\
+\
 }
