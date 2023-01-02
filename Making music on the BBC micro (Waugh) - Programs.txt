@@ -1069,7 +1069,8 @@ actually
 25 REM Multiples of 10 and are+
 26 REM 75,145,762,764,855,1242,1244
 27 REM Plus 2000 to 2670
-29 REM Altered Lines=150,810 35
+29 REM Altered Lines=150,810
+35
 30
 35
 40 *TV255,1
@@ -1346,7 +1347,8 @@ actually
 25 REM Multiples of 10 and are+
 26 REM 75,145,762,764,855,1242,1244
 27 REM Plus 2000 to 2670
-29 REM Altered Lines=150,810 35
+29 REM Altered Lines=150,810
+35
 30
 35
 40 *TV255,1
@@ -1641,7 +1643,7 @@ actually
 3280 ENDPROC
 
 
-#### Estimate DEF PROCAlterPit, DEF PROCFinalTimeCheck and DEF PROCOvertime
+#### Estimate DEF PROCAlterPit, DEF PROCFinalTimeCheck and DEF PROCOvertime  (redundant now as the missing lines have been found)
 
 4870 
 4880 DEF PROCAlterPit
