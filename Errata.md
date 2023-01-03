@@ -219,12 +219,12 @@ Also, line 2310 is incorrect as its action is a repeat of 2300.
 ```
 2310 IF Input=39 pn3=1
 ```
-To affect the pitch colour (p), it should be
+To affect the pitch colour (`p`), it should be
 ```
 2310 IF Input=39 p=1
 ```
 
-### Page 81 ((69)
+### Page 81 (69)
 The missing lines are
 ```
 2360
@@ -297,9 +297,12 @@ should be
 ```
 110 SOUND2,Amp,Note+1,Dur
 ```
-Page 118 (106)
+### Page 118 (106)
+
 Listing 7.2, if "S" is the first key press then there is a "No such variable" error. This is because some of the variables are not declared (`T`, `PI1`, `PI2`, `PI3`, `PN1`, `PN2`, `PN3`).
+
 This is because PROCEnvelope is not called (which is where the undefined variables (`T`, `PI1`, `PI2`, `PI3`, `PN1`, `PN2`, `PN3`) are set, prior to `PROCPrintEnv`), if "S" is the first key press causing `PROCSoundNoise` to be called, via `PROCAction`, in the main loop. However, `PROCEnvelope` calls the `PROCPlay` start after setting.
+
 A fix would be to separate `PROCEnvelope` into two calls `PROCSetEnvelope` and `PROCPlay`, where `PROCSetEnvelope` sets the undefined variables. Then `PROCSetEnvelope` can also be called as part of `PROCSetUp`, either just after or just before `PROCSetSN`.
 
 ### Page 128 (116)
