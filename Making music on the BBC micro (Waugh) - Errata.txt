@@ -252,3 +252,6 @@ Page 231 (219)
 should be 
 2190 MinKey$=MinKeyArray$(No)+" Minor"
 
+Page 239(227)/Page241(229)
+Chapter 13 but listing is 14.1
+Likewise 14.2
