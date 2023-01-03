@@ -3,22 +3,30 @@ BASIC listings from the book, *Making music on the BBC computer* by Ian Waugh
 
 There is a thread about this book on StarDot.org.uk, [Making Music on the BBC Computer by Ian Waugh](https://stardot.org.uk/forums/viewtopic.php?t=4923).
 
+## Links to the book
+
 The book is available online:
 
 - [OCR scanned PDF](http://8bs.com/othrdnld/manuals/publication/Making_Music_on_the_BBC_Computer_Waugh.zip) on [8bs.com - publications](http://8bs.com/othrdnld/manuals/publications.shtml)
 - A bitmap scanned PDF on [Archive.org](https://archive.org/details/makingmusiconbbc0000waug) - free account required for a digital "loan"
 
+The book contains a lot of errors and typos in both the text and the code, especially the [OCR scanned PDF](http://8bs.com/othrdnld/manuals/publication/Making_Music_on_the_BBC_Computer_Waugh.zip) on [8bs.com - publications](http://8bs.com/othrdnld/manuals/publications.shtml) which has additional OCR induced errors. 
+
+**Note**: Listing 5.2 is incomplete due to a listing truncation in the book (see **Errors in listing 5.2** below).
+
+The listings in this repository have, for the most part, been checked, run and corrected. 
+
+## SSD images
+
 SSD images of the code listings are available:
 - [making_music.zip](https://stardot.org.uk/forums/download/file.php?id=3321&sid=1cd77dd3853fad707f262f788a0b93b4), from [this post](https://stardot.org.uk/forums/viewtopic.php?p=44849&sid=1cd77dd3853fad707f262f788a0b93b4#p44849)
-  - ***NOTE**: this SSD contains errors in listing 5.2 carried over from the typos, listing truncation and omissions in the book, as well as other additional errors introdued by the typist*
+  - ***NOTE**: this SSD contains errors in listing 5.2 carried over from the typos, listing truncation and omissions in the book, as well as other additional errors introduced by the manual code entry*
   
-- Another couple of SSD images are available within the [ZIP file](http://8bs.com/othrdnld/manuals/publication/Making_Music_on_the_BBC_Computer_Waugh.zip) containing the OCR scan of the book on [8bs.com - publications](http://8bs.com/othrdnld/manuals/publications.shtml). The SSD, `SIDE0.SSD` has a complete listing 5.2, although this listing still contains some errors:
-  - Line 2310 (see **Errors in listing 5.2** below)
-  - The `ON x GOTO` error (see **Errors in listing 5.2** below), requiring the patch for lines 2420 and 2485
+- Another couple of SSD images are available within the [ZIP file](http://8bs.com/othrdnld/manuals/publication/Making_Music_on_the_BBC_Computer_Waugh.zip) containing the OCR scan of the book on [8bs.com - publications](http://8bs.com/othrdnld/manuals/publications.shtml). The SSD, `SIDE0.SSD` has a complete listing 5.2, although this listing still contains some errors (see **Errors in listing 5.2** below):
+  - Line 2310 
+  - The `ON x GOTO` error, requiring the patch for lines 2420 and 2485
 
-The book contains a lot of errors and typos in both the text and the code, especially the [OCR scanned PDF](http://8bs.com/othrdnld/manuals/publication/Making_Music_on_the_BBC_Computer_Waugh.zip) on [8bs.com - publications](http://8bs.com/othrdnld/manuals/publications.shtml) which has additional OCR induced errors. The listings in this repository have, for the most part, been checked, run and corrected. 
 
-**Note**: Listing 5.2 is incomplete due to omission in the book (see **Errors in listing 5.2** below).
 
 ## Errors in listing 5.2
 
@@ -36,7 +44,7 @@ The missing line 150 should be
 150 IF Input$="C" PROCAxis:PROCAxis2
 ```
 
-Note that this omission is only in the OCR scan of the 1983 publication of the book. The 1984 publication shows this line correctly.
+Note that this omission is only in the OCR scan of the 1983 publication of the book. The 1984 publication shows this line correctly. 
 
 ### Line 2310
 
@@ -46,13 +54,13 @@ The typo is line 2310 is fixed with the following line
 2310 IF Input=39 p=1
 ```
 
-Note that this omission is only in the OCR scan of the 1983 publication of the book. The 1984 publication shows this line correctly.
+Note that this omission is only in the OCR scan of the 1983 publication of the book. The 1984 publication shows this line correctly. Both disk images contain this error.
 
 ### The missing lines 2360-2670
 
 The missing lines can be found on `SIDE0.SSD` which is bundled with the OCR scanned PDF, in the ZIP file on [8bs.com - publications](http://8bs.com/othrdnld/manuals/publications.shtml).
 
-The missing lines are as follows
+The missing lines are as follows:
 
 ```none
 2360
@@ -97,7 +105,6 @@ These previously missing lines also contain typos:
 - Missing line pointed to, by the seventh option of the `ON x GOTO` on line 2420
 
 These omissions can be fixed by the following two lines:
-
 
 ```none
 2420 ON (Input-32) GOTO 2430,2440,2450,2460,2470,2480,2485
