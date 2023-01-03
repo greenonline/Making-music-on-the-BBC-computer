@@ -1,3 +1,5 @@
+# Making music on the BBC micro
+
 ## Chapter 11
 
 ### A three-part computer composition
