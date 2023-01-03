@@ -20,8 +20,8 @@ The book contains a lot of errors and typos in both the text and the code, espec
 
 Listing 5.2, as it is shown in the book, has a number of errors:
 
-- Omission of an updated version of line 150
-- Typo in line 2310
+- Omission of an updated version of line 150 (only in the OCR scan)
+- Typo in line 2310 (only in the OCR scan)
 - Truncated listing, which ends prematurely at line 2350, causing an omission of lines 2360-2670
 
 ### Line 150
@@ -32,6 +32,8 @@ The missing line 150 should be
 150 IF Input$="C" PROCAxis:PROCAxis2
 ```
 
+Note that this omission is only in the OCR scan of the 1983 publication of the book. The 1984 publication shows this line correctly.
+
 ### Line 2310
 
 The typo is line 2310 is fixed with the following line
@@ -39,6 +41,8 @@ The typo is line 2310 is fixed with the following line
 ```none
 2310 IF Input=39 p=1
 ```
+
+Note that this omission is only in the OCR scan of the 1983 publication of the book. The 1984 publication shows this line correctly.
 
 ### The missing lines 2360-2670
 
