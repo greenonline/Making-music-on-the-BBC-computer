@@ -7,9 +7,7 @@ There is a difference of twelve pages between the PDF and the page numbering in 
 ### Page 10 - The Operating system
 *fisted* should be *listed*
 
-Other examples of *fisted*
-page 62, 124, 196,212,224, 252, 254
-fisted should be listed
+Other examples of *fisted* can be found on pages 62, 124, 196, 212, 224, 252, and 254
 
 ### Page 14 (2)
 
@@ -33,123 +31,128 @@ should be
 ### Page 16 (4)
 *everyday fife* should be *life*
 
-Other xamples of fine should be line:
-7
-26 (14)
+### Page 7
+*fine* should be *line*
+
+Other examples of where *fine* should be *line*, can be found on pages:
+
+- 26 (14)
 *five fines* should be *five lines*
 and there are four more occurrences on that page.
-27(15)
-two occurrences
-35 (23)
-one occurrence
-48 (36)
+ - 27(15)
+Two occurrences
+ - 35 (23)
+One occurrence
+ - 48 (36)
 three occurrences
-54 (42)
+ - 54 (42)
+One occurrence
+ - 56 (44)
+Two occurrences
+ - 68 (56)
+Four occurrences
+ - 79 (67)
+One occurrence
+ - 82 (70)
+One occurrence
+ - 85 (73)
+One occurrence
+ - 89 (77)
+One occurrence
+ - 90 (78)
+Two occurrences
+ - 92 (80)
+Four occurrences
+ - 97 (85)
+Three occurrences
+ - 123 (111)
+One occurrence
+ - 130 (118)
 One occurance
-56 (44)
-x2
-68 (56)
-x4
-79 (67)
-One occurance
-82 (70)
-One occurance
-85 (73)
-One occurance
-89 (77)
-One occurance
-90 (78)
-x2
-92 (80)
-x4
-97 (85)
-x3
-Page 123(111)
-One occurance
-130 (118)
-One occurance
-131 (119)
-One occurance
-134 (122)
-One occurance
-138 (126)
+ - 131 (119)
+One occurrence
+ - 134 (122)
+One occurrence
+ - 138 (126)
 x1 lines
-139 (127)
-One occurance
-140 (128)
-x2
-141 (129)
-One occurance
-142 (130)
-One occurance
-148 (136)
-x2
-149 (137)
-One occurance
-154 (142)
-One occurance
-155 (143)
-One occurance
-156 (144)
-One occurance
-157 (145)
-One occurance
-160 (148)
-x3
-168 (156)
-One occurance
-176 (164)
-One occurance
-184 (172)
-One occurance
-185 (173)
-One occurance
-186 (174)
-One occurance
-196 (184)
-One occurance
-198 (186)
-One occurance
-199 (187)
-One occurance
-205 (193)
-One occurance
-206 (194)
-x2
-207 (195)
-One occurance
-208 (196)
-One occurance
-213 (201)
-One occurance
-215 (203)
-One occurance
-217 (205)
-One occurance
-219 (207)
-x2
-222 (210)
-One occurance
-232 (220)
-One occurance
-233 (221)
-One occurance
-234 (222)
-x5
-241 (229)
-One occurance
-242 (230)
-x2
-243 (231)
-x3
-247 (235)
-x3
-254 (242)
-x2
+ - 139 (127)
+One occurrence
+ - 140 (128)
+Two occurrences
+ - 141 (129)
+One occurrence
+ - 142 (130)
+One occurrence
+ - 148 (136)
+Two occurrences
+ - 149 (137)
+One occurrence
+ - 154 (142)
+One occurrence
+ - 155 (143)
+One occurrence
+ - 156 (144)
+One occurrence
+ - 157 (145)
+One occurrence
+ - 160 (148)
+Three occurrences
+ - 168 (156)
+One occurrence
+ - 176 (164)
+One occurrence
+ - 184 (172)
+One occurrence
+ - 185 (173)
+One occurrence
+ - 186 (174)
+One occurrence
+ - 196 (184)
+One occurrence
+ - 198 (186)
+One occurrence
+ - 199 (187)
+One occurrence
+ - 205 (193)
+One occurrence
+ - 206 (194)
+Two occurrences
+ - 207 (195)
+One occurrence
+ - 208 (196)
+One occurrence
+ - 213 (201)
+One occurrence
+ - 215 (203)
+One occurrence
+ - 217 (205)
+One occurrence
+ - 219 (207)
+Two occurrences
+ - 222 (210)
+One occurrence
+ - 232 (220)
+One occurrence
+ - 233 (221)
+One occurrence
+ - 234 (222)
+Five occurrences
+ - 241 (229)
+One occurrence
+ - 242 (230)
+Two occurrences
+ - 243 (231)
+Three occurrences
+ - 247 (235)
+Three occurrences
+ - 254 (242)
+Two occurrences
 
 ### Page 40 (28)
 
-If you cut between the keyboard and the stave, you can position the keyboard, which_ covers the range of the sound chip, beneath the stave in such a Chapter 3 The BBC Micro and Sound and Music chip you want to use.
+Random introduction of text: *Chapter 3 The BBC Micro and Sound and Music*
+
+*If you cut between the keyboard and the stave, you can position the keyboard, which_ covers the range of the sound chip, beneath the stave in such a Chapter 3 The BBC Micro and Sound and Music chip you want to use.*
 
 
 ### Page 41 (29)
@@ -157,7 +160,10 @@ If you cut between the keyboard and the stave, you can position the keyboard, wh
 *}OK* should be *10kOhm*
 
 ### Page 49 (37)
-It seems to make more sense to call the lowest octave, and one Chapter 3 The BBC Micro and Sound and Music writing Cl, D1, etc to C0, D0 and it still allows a pitch value of 1 which is B0.
+
+Random introduction of text: *Chapter 3 The BBC Micro and Sound and Music*
+
+*It seems to make more sense to call the lowest octave, and one Chapter 3 The BBC Micro and Sound and Music writing Cl, D1, etc to C0, D0 and it still allows a pitch value of 1 which is B0.*
 
 ### Page 49 (37) 
 
@@ -178,14 +184,17 @@ fine -> line
 
 ### Page 75 (62)
 *along the 3£ axis*
+
 *3£* should be *x*
 
 ### Page 76 (64)
 *it only needs to be reduced by 26 to reach the ALE*
+
 *ALE* should be *ALD*
 
 ### Page 79 (67)
 *The use of PH and PI2*:
+
 *PH* should be *PI1*
 
 ### Page 79 (67) (only in OCR scan PDF)
@@ -199,6 +208,7 @@ However, whilst 810 is indeed altered, the new version of line 150 is not shown.
 ```
 ### Page 81 (69)
 Note that the listing 5.2 is truncated and ends at line 2350. 
+
 There are three PROCs missing:
 - `PROCAlterPit` is missing
 - `PROCOvertime` is missing
@@ -253,16 +263,17 @@ The missing lines are
 
 ### Page 81 (69)
 
-To be able to change the Pitch variable
-Finally, to fix the `ON x GOTO` range error and actually be able to change the value of `Pitch`, change line 2420 to add a seventh line option
+To be able to change the Pitch variable.
+
+Finally, to fix the `ON x GOTO` range error and actually be able to change the value of `Pitch`, change line 2420 to add a seventh line option:
 ```
-2420 ON (Input-32) GOTO 2430, 2440, 2450,2460,2470,2480,2485
+2420 ON (Input-32) GOTO 2430,2440,2450,2460,2470,2480,2485
 ```
 and then add a new line to change the Pitch variable
 
 ```
 2485 Pitch=NewVal:ENDPROC
-``` 
+```
 actually you have to update the helper/"assistant", `Pit1` instead:
 
 ```
