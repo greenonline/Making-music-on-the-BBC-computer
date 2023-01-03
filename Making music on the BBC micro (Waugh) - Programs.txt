@@ -914,7 +914,7 @@ There are three PROCs missing: PROCAlterPit, PROCFinalTimeCheck and PROCOvertime
 2360
 2370 DEF PROCAlterPit
 2380 INPUT NewVal$:PRINTTAB(0,2)SPC(6)
-2390 IF NewVal$=“” PROCReset: PROCPrintEnv:ENDPROC
+2390 IF NewVal$="" PROCReset: PROCPrintEnv:ENDPROC
 2400 NewVal=EVAL(NewVal$)
 2410 PRINTTAB(30,0)SPC(20)
 2420 ON (Input-32) GOTO 2430,2440,2450,2460,2470,2480
@@ -1025,7 +1025,7 @@ actually
 2360
 2370 DEF PROCAlterPit
 2380 INPUT NewVal$:PRINTTAB(0,2)SPC(6)
-2390 IF NewVal$=“” PROCReset: PROCPrintEnv:ENDPROC
+2390 IF NewVal$="" PROCReset: PROCPrintEnv:ENDPROC
 2400 NewVal=EVAL(NewVal$)
 2410 PRINTTAB(30,0)SPC(20)
 2420 ON (Input-32) GOTO 2430,2440,2450,2460,2470,2480,2485
@@ -1302,7 +1302,7 @@ actually
 2360
 2370 DEF PROCAlterPit
 2380 INPUT NewVal$:PRINTTAB(0,2)SPC(6)
-2390 IF NewVal$=“” PROCReset: PROCPrintEnv:ENDPROC
+2390 IF NewVal$="" PROCReset: PROCPrintEnv:ENDPROC
 2400 NewVal=EVAL(NewVal$)
 2410 PRINTTAB(30,0)SPC(20)
 2420 ON (Input-32) GOTO 2430,2440,2450,2460,2470,2480,2485
@@ -1581,7 +1581,7 @@ actually
 2360
 2370 DEF PROCAlterPit
 2380 INPUT NewVal$:PRINTTAB(0,2)SPC(6)
-2390 IF NewVal$=“” PROCReset: PROCPrintEnv:ENDPROC
+2390 IF NewVal$="" PROCReset: PROCPrintEnv:ENDPROC
 2400 NewVal=EVAL(NewVal$)
 2410 PRINTTAB(30,0)SPC(20)
 2420 ON (Input-32) GOTO 2430,2440,2450,2460,2470,2480,2485
@@ -2346,7 +2346,7 @@ Should 1310 use T and not T1?
 
 1310 PRINTTAB(0,16)"ENVELOPE1,";T;",";PI1;",";PI2;",";PI3;",";PN1;",";PN2;",";PN3;",";SAA;",";SAD;",";SAS;",";SAR;",";SALA;",";SALD
 
-In fact, some of the variables are not declared (T, PI1, PI2, PI3, PN1, PN2, PN3)), if you press “S” as the first key, you get a “No such variable” error.
+In fact, some of the variables are not declared (T, PI1, PI2, PI3, PN1, PN2, PN3)), if you press "S" as the first key, you get a "No such variable" error.
 
 This line works:
 
@@ -2360,7 +2360,7 @@ This line works:
 
 1340 PRINTTAB(0,20)"ENVELOPE2,";NAA;",";NAD;",";NAS;",";NAR;",";NALA;",";NALD
 
-This is because PROCEnvelope is not called (which is where the undefined variables (T, PI1, PI2, PI3, PN1, PN2, PN3) are set, prior to PROCPrintEnv), if “S” is the first key press causing PROCSoundNoise to be called, via PROC Action, in the main loop. However, PROCEnvelope calls the PROCPlay start after setting.
+This is because PROCEnvelope is not called (which is where the undefined variables (T, PI1, PI2, PI3, PN1, PN2, PN3) are set, prior to PROCPrintEnv), if "S" is the first key press causing PROCSoundNoise to be called, via PROC Action, in the main loop. However, PROCEnvelope calls the PROCPlay start after setting.
 
 A fix would be to separate PROCEnvelope into two calls PROCSetEnvelope and PROCPlay, where PROCSetEnvelope sets the undefined variables. Then PROCSetEnvelope can also be called as part of PROCSetUp, either just after or just before PROCSetSN.
 
