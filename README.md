@@ -16,11 +16,11 @@ The book contains a lot of errors and typos in both the text and the code, espec
 
 The listings in this repository have, for the most part, been checked, run and corrected. 
 
-## SSD images
+## Disk images
 
-SSD images of the code listings are available:
-- [making_music.zip](https://stardot.org.uk/forums/download/file.php?id=3321&sid=1cd77dd3853fad707f262f788a0b93b4), from [this post](https://stardot.org.uk/forums/viewtopic.php?p=44849&sid=1cd77dd3853fad707f262f788a0b93b4#p44849)
-  - ***NOTE**: this SSD contains errors in listing 5.2 carried over from the typos, listing truncation and omissions in the book, as well as other additional errors introduced by the manual code entry*
+Disk images of the code listings are available:
+- A DSD is contained within [making_music.zip](https://stardot.org.uk/forums/download/file.php?id=3321&sid=1cd77dd3853fad707f262f788a0b93b4), from [this post](https://stardot.org.uk/forums/viewtopic.php?p=44849&sid=1cd77dd3853fad707f262f788a0b93b4#p44849)
+  - ***NOTE**: this DSD contains errors in listing 5.2 carried over from the listing truncation and omissions in the book, as well as other additional errors (i.e. line 2330) introduced by the manual code entry*.
   
 - Another couple of SSD images are available within the [ZIP file](http://8bs.com/othrdnld/manuals/publication/Making_Music_on_the_BBC_Computer_Waugh.zip) containing the OCR scan of the book on [8bs.com - publications](http://8bs.com/othrdnld/manuals/publications.shtml). The SSD, `SIDE0.SSD` has a complete listing 5.2, although this listing still contains some errors (see **Errors in listing 5.2** below):
   - Line 2310 
@@ -44,7 +44,7 @@ The missing line 150 should be
 150 IF Input$="C" PROCAxis:PROCAxis2
 ```
 
-Note that this omission is only in the OCR scan of the 1983 publication of the book. The 1984 publication shows this line correctly. 
+Note that this omission is only in the OCR scan of the 1983 publication of the book. The 1984 publication shows this line correctly. Both of the disk images (from 8bs.com and stardot.org.uk) are correct.
 
 ### Line 2310
 
@@ -54,7 +54,23 @@ The typo is line 2310 is fixed with the following line
 2310 IF Input=39 p=1
 ```
 
-Note that this omission is only in the OCR scan of the 1983 publication of the book. The 1984 publication shows this line correctly. Both disk images contain this error.
+Note that this omission is *only* in the OCR scan of the 1983 publication of the book and the SSD disk image that accompanies it, on 8bs.com. The 1984 publication, on archive.org, shows this line correctly. The DSD image, on stardot.org.uk, also has this line correct.
+
+### Line 2330
+
+Line 2330 should be 
+
+```none
+2330 PROCAlterPit
+```
+
+and not 
+
+```none
+2330 PROCAlter
+```
+
+Note that *only* the DSD image from stardot.org.uk has this error which appears to have arisen from an attempt to make the truncated listing work. Both the OCR scan (as well as the SSD) on 8bs.com and the bitmap scan on archive.org are correct. 
 
 ### The missing lines 2360-2670
 
@@ -97,9 +113,11 @@ The missing lines are as follows:
 2670 
 ```
 
+Note that the omission of these lines is in *both* PDFs (the OCR scan and the bitmap scan) of the book. The DSD image from stardot.org.uk is *also* missing these lines.
+
 ### Errors in `ON x GOTO`
 
-These previously missing lines also contain typos:
+These previously missing lines 2360-2670 also contain typos:
 
 - Omission of the seventh `ON x GOTO` option on line 2420
 - Missing line pointed to, by the seventh option of the `ON x GOTO` on line 2420
