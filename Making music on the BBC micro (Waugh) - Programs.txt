@@ -887,7 +887,7 @@ n/a
 
 #### Errata in Listing 5.2
 
-##### Missing changed line 150
+##### Missing changed line 150 (only in OCR scan PDF)
 
 The listing shows in line 29
 
@@ -897,9 +897,9 @@ However, whilst 810 is indeed altered, the new version of line 150 is not shown.
 
 150 IF Input$="C" PROCAxis:PROCAxis2
 
-##### Typo in line 2310
+##### Typo in line 2310 (only in OCR scan PDF)
 
-Also, line 2310 looks incorrect as its action is a repeat of 2300. To affect the pitch colour (p), it should be 
+Also, line 2310 is incorrect as its action is a repeat of 2300. To affect the pitch colour (p), it should be 
 
 2310 IF Input=39 p=1
 
