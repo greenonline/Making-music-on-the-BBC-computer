@@ -19,7 +19,7 @@ The listings in this repository have, for the most part, been checked, run and c
 ## Disk images
 
 Disk images of the code listings are available:
-- A DSD is contained within [making_music.zip](https://stardot.org.uk/forums/download/file.php?id=3321&sid=1cd77dd3853fad707f262f788a0b93b4), from [this post](https://stardot.org.uk/forums/viewtopic.php?p=44849&sid=1cd77dd3853fad707f262f788a0b93b4#p44849)
+- A DSD is contained within [making_music.zip](https://stardot.org.uk/forums/download/file.php?id=3321&sid=1cd77dd3853fad707f262f788a0b93b4), from [this post](https://stardot.org.uk/forums/viewtopic.php?p=44849&sid=1cd77dd3853fad707f262f788a0b93b4#p44849) on the stardot.org.uk forum.
   - ***NOTE**: this DSD contains errors in listing 5.2 carried over from the listing truncation and omissions in the book, as well as other additional errors (i.e. line 2330) introduced by the manual code entry*.
   
 - Another couple of SSD images are available within the [ZIP file](http://8bs.com/othrdnld/manuals/publication/Making_Music_on_the_BBC_Computer_Waugh.zip) containing the OCR scan of the book on [8bs.com - publications](http://8bs.com/othrdnld/manuals/publications.shtml). The SSD, `SIDE0.SSD` has a complete listing 5.2, although this listing still contains some errors (see **Errors in listing 5.2** below):
