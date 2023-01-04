@@ -280,6 +280,11 @@ actually you have to update the helper/"assistant", `Pit1` instead:
 2485 Pit1=NewVal:ENDPROC
 ```
 
+### Page 82(70)
+*In line 2590, if T is greater than 127, ie the envelope is set not to repeat, the pitch envelope is only drawn once.*
+
+Actually, it is line 2600 not 2590
+
 ### Page 86 (74) 
 tastee 5.6
 
