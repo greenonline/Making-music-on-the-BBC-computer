@@ -2891,7 +2891,7 @@ REM Key C Minorish!: Set Env%=4 or Similar
 20 REM 1 Channel Version of Mozart's
 30 REM Rondo Alla Turca
 40
-50 Scale$=" C C#D D#E F F#GG#A A#B"
+50 Scale$="  C  C# D  D# E  F  F# G  G# A  A# B"
 60 Key=1
 70
 80 ENVELOPE1,1,0,0,0,0,0,0,126,-2,0,- 10,126,100
@@ -2929,6 +2929,17 @@ REM Key C Minorish!: Set Env%=4 or Similar
 400 IF Pitch<0 OR Pitch>255 THEN PRINT "ERROR IN PITCH DATA ";Note$;" Pitch =" ;Pitch:PRINT"Note Number ";N:STOP
 410 ENDPROC
 
+As for listing 9.2
+
+210 Scale$="  C  C# D  D# E  F  F# G  G# A  A# B" 
+
+50 Scale$=" C C#D D#E F F#GG#A A#B"
+
+should be
+
+50 Scale$="  C  C# D  D# E  F  F# G  G# A  A# B"
+
+
 ### The negative ADVAL method
 
 10 REM PROGRAM 9.2
@@ -2949,7 +2960,7 @@ REM Key C Minorish!: Set Env%=4 or Similar
 180 DIM Chan2(4,C2)
 190 DIM Chan3(4,C3)
 200
-210 Scale$=" C C#D D#E F F#GG#A A#B" 
+210 Scale$="  C  C# D  D# E  F  F# G  G# A  A# B" 
 220 Key=1 
 230 Tempo=1 
 240
@@ -3259,6 +3270,9 @@ REM Key C Minorish!: Set Env%=4 or Similar
 
 BUG???: Line 1300 gives error (Pitch B0)  (check calculation in line 840)
 
+No, line 210 must have two spaces between note letters, or one space if there is a sharp, like so
+
+210 Scale$="  C  C# D  D# E  F  F# G  G# A  A# B"
 
 10 REM PROGRAM 9.6
 20 REM John Philip Sousa's
@@ -3397,6 +3411,9 @@ BUG???: Line 1300 gives error (Pitch B0)  (check calculation in line 840)
 
 BUG???: Line 2670 B0 error in pitch data (check calculation in line 840)
 
+No, line 210 must have two spaces between note letters, or one space if there is a sharp, like so
+
+210 Scale$="  C  C# D  D# E  F  F# G  G# A  A# B"
 
 ## Chapter 10
 
@@ -4578,7 +4595,7 @@ should be
 1350 VDU23,242,24,24,24,24,24,24,24,126
 1360 VDU23,246,126,36,38,38,100,100,36,231
 1370 VDU23,247,126,36,100,100,38,38,36,231
-1380 Man1$=CHR$234+CHR$236+CHR$237+CHR$8+CHR$8+CHR$10+CHR$241+CHR$8+CHR$10+CHR$246
+1380 Man1$=CHR$235+CHR$236+CHR$237+CHR$8+CHR$8+CHR$10+CHR$241+CHR$8+CHR$10+CHR$246
 1390 Man2$=CHR$234+CHR$236+CHR$238+CHR$8+CHR$8+CHR$10+CHR$241+CHR$8+CHR$10+CHR$247
 1400 Man3$=CHR$234+CHR$236+CHR$238+CHR$8+CHR$8+CHR$10+CHR$242+CHR$8+CHR$10+CHR$247
 1410 Man4$=CHR$234+CHR$236+CHR$237+CHR$8+CHR$8+CHR$10+CHR$241+CHR$8+CHR$10+CHR$247
@@ -4591,8 +4608,11 @@ should be
 1480 IF Ch1=1 PRINTMan4$:ENDPROC
 1490 IF Ch1=C1 Wait=INKEY(60):PRINTMan4$:ENDPROC
 1500 IF Ch1<19 AND m%=0 PRINTMan1$:ENDPROC ELSE IF Ch1<19 AND m%=1 PRINTMan2$:ENDPROC
-1510 IF Ch1<35 AND m%=0 PRINTMan4$:ENDPROC ELSE IF Ch1<35 AND m%=1 PRINTMan5$:E NDPROC
+1510 IF Ch1<35 AND m%=0 PRINTMan4$:ENDPROC ELSE IF Ch1<35 AND m%=1 PRINTMan5$:ENDPROC
 1520 IF m%=0 PRINTMan1$ ELSE IF m%=1 PRINTMan3$
 1530 ENDPROC
 
 BUG???: Line 1090 B0 error in pitch data (check calculation in line 840)
+Due to error in typing in line 210 in listing 9.2. There MUST be two spaces between characters, or one if there is a sharp(#):
+210 Scale$="  C  C# D  D# E  F  F# G  G# A  A# B" 
+
