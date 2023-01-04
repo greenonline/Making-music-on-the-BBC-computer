@@ -10,7 +10,7 @@
 20 REM 1 Channel Version of Mozart's
 30 REM Rondo Alla Turca
 40
-50 Scale$=" C C#D D#E F F#GG#A A#B"
+50 Scale$="  C  C# D  D# E  F  F# G  G# A  A# B"
 60 Key=1
 70
 80 ENVELOPE1,1,0,0,0,0,0,0,126,-2,0,- 10,126,100
@@ -69,7 +69,7 @@
 180 DIM Chan2(4,C2)
 190 DIM Chan3(4,C3)
 200
-210 Scale$=" C C#D D#E F F#GG#A A#B" 
+210 Scale$="  C  C# D  D# E  F  F# G  G# A  A# B" 
 220 Key=1 
 230 Tempo=1 
 240
@@ -379,6 +379,10 @@
 
 BUG???: Line 1300 gives error (Pitch B0)  (check calculation in line 840)
 
+No, line 210 must have two spaces between note letters, or one space if there is a sharp, like so
+
+210 Scale$="  C  C# D  D# E  F  F# G  G# A  A# B"
+
 ```
 10 REM PROGRAM 9.6
 20 REM John Philip Sousa's
@@ -516,3 +520,7 @@ BUG???: Line 1300 gives error (Pitch B0)  (check calculation in line 840)
 3370 DATA &200,F2,6,R,3,F2,6,R,3
 ```
 BUG???: Line 2670 B0 error in pitch data (check calculation in line 840)
+
+No, line 210 must have two spaces between note letters, or one space if there is a sharp, like so
+
+210 Scale$="  C  C# D  D# E  F  F# G  G# A  A# B"
