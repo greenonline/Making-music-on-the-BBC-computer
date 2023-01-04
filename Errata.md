@@ -289,13 +289,13 @@ actually you have to update the helper/"assistant", `Pit1` instead:
 Actually, it is line 2600 not 2590
 
 ### Page 86 (74) 
-tastee 5.6
+*tastee 5.6* should be *taste* and *Figure 5.6*
 
 ### Page 89 (77) 
-£0
+*£0* shoul dbe *f0*
 
 ### Page 90 (78)
-£0
+*£0* should be *f0*
 
 ### Page 103 (91)
 ```
