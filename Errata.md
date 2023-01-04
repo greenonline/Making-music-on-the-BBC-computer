@@ -193,6 +193,9 @@ fine -> line
 *ALE* should be *ALD*
 
 ### Page 79 (67)
+The graph of the pitch change doesn't seem to tally with the values of PI3=-3. There is a drop of -4, not -3. Plus, there is an additional drop of -1 one step later.
+
+### Page 79 (67)
 *The use of PH and PI2*:
 
 *PH* should be *PI1*
