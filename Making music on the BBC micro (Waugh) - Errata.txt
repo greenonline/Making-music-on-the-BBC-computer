@@ -157,9 +157,14 @@ along the 3£ axis
 page 76 (64)
 it only needs to be reduced by 26 to reach the ALE
 ALE should be ALD
+
+Page 79 (67)
+The graph of the pitch change doesn't seem to tally with the values of PI3=-3. There is a drop of -4, not -3. Plus, there is an additional drop of -1 one step later.
+
 page 79 (67)
 Book text "The use of PH and PI2":
 PH should be PI1
+
 page 79 (67) (only in OCR scan PDF)
 The listing shows in line 29
 29 REM Altered Lines=150,810
