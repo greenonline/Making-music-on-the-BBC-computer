@@ -354,3 +354,13 @@ Chapter 13 but listing is 14.1
 
 ### Page 243(231)
 Likewise Chapter 13 but listing is 14.2
+
+### Page 246 (234) (only in OCR scan PDF)
+```
+1380 Man1$=CHR$234+CHR$236+CHR$237+CHR$8+CHR$8+CHR$10+CHR$241+CHR$8+CHR$10+CHR$246
+```
+should be
+```
+1380 Man1$=CHR$235+CHR$236+CHR$237+CHR$8+CHR$8+CHR$10+CHR$241+CHR$8+CHR$10+CHR$246
+```
+
