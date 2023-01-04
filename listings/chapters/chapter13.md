@@ -145,4 +145,3 @@
 1520 IF m%=0 PRINTMan1$ ELSE IF m%=1 PRINTMan3$
 1530 ENDPROC
 ```
-BUG???: Line 1090 B0 error in pitch data (check calculation in line 840)
