@@ -24,7 +24,7 @@
 170 DIM Dice%(4),Key$(15)
 180 Key=1
 190 Tempo%=1
-200 Scale$=" C C#D D#E F F#GG#A A#B"
+200 Scale$="  C  C# D  D# E  F  F# G  G# A  A# B"
 210
 220 REM Chinese Sticks
 230 ENVELOPE1,1,0,0,0,0,0,0,126,-10,-5 ,-2,126,100
@@ -180,8 +180,8 @@ and add:
 40
 50 MODE7
 60
-70 Scale$=" C C#D D#E F F#GG#A A#B"
-80 ChordRange$=" M 7 9 min min6min7min9maj6maj7aug dim"
+70 Scale$="  C  C# D  D# E  F  F# G  G# A  A# B"
+80 ChordRange$="   M   7   9   min min6min7min9maj6maj7aug dim"
 90
 100 DIM NotesToChooseFrom$(11,6)
 110
