@@ -19,6 +19,7 @@ should be
 ```
 110 INPUT"Amplitude (50-400)",Amp
 ```
+
 ### Page 14 (2)
 Missing semicolon (`;`) and a comma (`,`) used instead. Line 
 ```
@@ -28,6 +29,7 @@ should be
 ```
 70 VDU24,0;0;1279;850
 ```
+
 ### Page 16 (4)
 *everyday fife* should be *life*
 
@@ -179,9 +181,6 @@ should be
 ### Page 65 (53)
 *backwards recording of ar} instrument* should be *...an instrument*
 
-### Page 68 (56)
-fine -> line
-
 ### Page 75 (62)
 *along the 3£ axis*
 
@@ -209,6 +208,7 @@ However, whilst 810 is indeed altered, the new version of line 150 is not shown.
 ```
 150 IF Input$="C" PROCAxis:PROCAxis2
 ```
+
 ### Page 81 (69)
 Note that the listing 5.2 is truncated and ends at line 2350. 
 
@@ -305,6 +305,7 @@ should be
 ```
 110 SOUND2,Amp,Note+1,Dur
 ```
+
 ### Page 118 (106)
 
 Listing 7.2, if "S" is the first key press then there is a "No such variable" error. This is because some of the variables are not declared (`T`, `PI1`, `PI2`, `PI3`, `PN1`, `PN2`, `PN3`).
@@ -340,6 +341,7 @@ should be
 ```
 1270 PRINT'CHR$131"How many ";Ac$;" has it? ("CHR$129"1-6"CHR$131")?"CHR$129;:PROCInput(48,55)
 ```
+
 ### Page 231 (219)
 ```
 2190 MinKey$=MinKeyArray(No)+" Minor"
