@@ -38,7 +38,7 @@
 260 END
 270
 280 DEF PROCSetup
-290 Scale$=" C C#D D#E F F#GG#A A#B"
+290 Scale$="  C  C# D  D# E  F  F# G  G# A  A# B"
 300
 310 ENVELOPE1,4,0,1,0,1,1,0,126,-8,0,- 8,126,80
 320 Key=1
@@ -164,7 +164,7 @@ BUG???: Runs once and then just quits and never runs again?
 90
 100 DIM Tune$(238),Dur%(238),F1%(36)
 110 Key%=37
-120 Scale$=" A1 A#1B1 C1 C#1D1 D#1E1F1 F#1G1 G#1A2 A#2B2 C2 C#2D2 D#2E2 F2 F #2G2 G#2A3 A#3B3 C3 D#3D3 D#3E3 F3 F#3G3G#3"
+120 Scale$="  A1 A#1B1 C1 C#1D1 D#1E1 F1 F#1G1 G#1A2 A#2B2 C2 C#2D2 D#2E2 F2 F#2G2 G#2A3 A#3B3 C3 D#3D3 D#3E3 F3 F#3G3 G#3"
 130
 140 PROCGetTune
 150 PROCNewScale
