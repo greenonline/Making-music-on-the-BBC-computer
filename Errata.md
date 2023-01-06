@@ -288,13 +288,22 @@ actually you have to update the helper/"assistant", `Pit1` instead:
 
 Actually, it is line 2600 not 2590
 
-### Page 86 (74) 
+### Page 86 (74) (only in OCR scan PDF)
 *tastee 5.6* should be *taste* and *Figure 5.6*
 
-### Page 89 (77) 
+### Page 89 (77) (only in OCR scan PDF)
+```
+250 ON ERROR WHEN 280,
+```
+should be 
+```
+250 ON ERROR LIST 280,
+```
+
+### Page 89 (77) (only in OCR scan PDF)
 *£0* shoul dbe *f0*
 
-### Page 90 (78)
+### Page 90 (78) (only in OCR scan PDF)
 *£0* should be *f0*
 
 ### Page 103 (91)
