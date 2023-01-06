@@ -228,14 +228,19 @@ In line 2590, if T is greater than 127, ie the envelope is set not to repeat, th
 
 Actually, it is line 2600 not 2590
 
-page 86 (74) 
+page 86 (74) (only in OCR scan PDF)
 tastee 5.6 should be taste
 Figure 5.6
 
-page 89 (77) 
+page 89 (77) (only in OCR scan PDF)
+250 ON ERROR WHEN 280,
+should be 
+250 ON ERROR LIST 280,
+
+page 89 (77) (only in OCR scan PDF)
 £0 should be f0
 
-page 90 (78)
+page 90 (78) (only in OCR scan PDF)
 £0 should be f0
 
 Page 103 (91)
@@ -272,3 +277,9 @@ should be
 Page 239(227)/Page241(229)
 Chapter 13 but listing is 14.1
 Likewise 14.2
+
+Page 246 (234) (only in OCR scan PDF)
+
+1380 Man1$=CHR$234+CHR$236+CHR$237+CHR$8+CHR$8+CHR$10+CHR$241+CHR$8+CHR$10+CHR$246
+should be
+1380 Man1$=CHR$235+CHR$236+CHR$237+CHR$8+CHR$8+CHR$10+CHR$241+CHR$8+CHR$10+CHR$246
